@@ -1,0 +1,9 @@
+1. Run pip install -r requirements.txt to install all the dependencies(you can install llama3 from the official website:- https://ollama.com )
+
+2. there is the sample data given on frog life cycle and water life cycle. you can add your own(inside data/ folder).
+
+3. Once you gave you custom data, run update_knowledge.py file to update the knowledge(do it whenever you add some new field of data)
+
+4. Finally run - streamlit run main.py  in terminal to run the chatbot.
+
+Hope you like it :)
