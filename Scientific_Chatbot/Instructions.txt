@@ -1,0 +1,19 @@
+1. First, see the vector_store/ folder.
+
+2. Run pip install -r requirements.txt to install all the dependencies(you can install llama3 from the official website:- https://ollama.com )
+
+3. Data/
+    - arxiv-metadata-oai-snapshot -> contains the whole aiXiv dataset  downloaded from kaggle
+    - arxiv_subset-full_CS        -> contains the subset of aiXiv database having all 367968 (computer science)papers.
+    - arXiv_cs_subset_8000        -> contains 8000 CS papers (the model is trained in this papers because of resourse and time scarsity). You can train and check the model on "cs_subset-full_CS".
+
+    - filter_arxiv_data           -> RUN IT  and you can seperate the papers on your own needs
+
+
+4. Once you're satisfied with your custom data, run update_knowledge.py file to update the knowledge (do it whenever you add some new field of data)
+
+5. Run "model_utils" to train your model
+
+6. Finally run - streamlit run main.py  in terminal to run the chatbot.
+
+Hope you like it :)
