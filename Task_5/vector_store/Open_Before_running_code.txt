@@ -1,5 +1,0 @@
-The file exists only because an empty folder can't be uploaded to GitHub. Please DELETE this file before you do anything.
-
-PURPOSE OF THIS FILE? - To store vectorize file for the model. Once you run the "main.py" this folder get's filled.
-
-THANKYOU
