@@ -1,4 +1,0 @@
-nltk
-numpy
-rouge-score
-streamlit
